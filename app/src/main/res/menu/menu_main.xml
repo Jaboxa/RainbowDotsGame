@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jessi.rainbowdots2.MainActivity">
+    <item
+        android:id="@+id/googleButton"
+        android:icon="@drawable/googlebutton"
+        android:orderInCategory="100"
+        android:title="@string/GoogleButton"
+        app:showAsAction="ifRoom" />
+</menu>
