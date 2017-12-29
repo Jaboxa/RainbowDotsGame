@@ -28,7 +28,7 @@
                   android:screenOrientation="sensorPortrait"/>
         <activity android:name=".GameLogic2Activity"
                   android:screenOrientation="sensorPortrait"/>
-        <activity android:name=".YouWonActivity"></activity>
+        <activity android:name=".YouWonActivity"/>
 
         <receiver android:name=".PhoneRinging">
             <intent-filter>
@@ -37,7 +37,7 @@
         </receiver>
     </application>
 
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 
 
 </manifest>
